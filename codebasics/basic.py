@@ -142,3 +142,7 @@ while i<=5:
 
 # function [function is a block of code that performs a specific task]
 
+# https://www.youtube.com/watch?v=fz_BCnhEQYQ&list=PLeo1K3hjS3us_ELKYSj_Fth2tIEkdKXvV&index=12
+
+
+
