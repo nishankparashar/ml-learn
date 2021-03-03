@@ -142,7 +142,16 @@ while i<=5:
 
 # function [function is a block of code that performs a specific task]
 
-# https://www.youtube.com/watch?v=fz_BCnhEQYQ&list=PLeo1K3hjS3us_ELKYSj_Fth2tIEkdKXvV&index=12
+list1 = [12341,1535,52525]
+list2 = [1983,193784,1398]
 
+def list_total(li):
+    total_list = 0
+    for i in li:
+        total_list+=i
+    return total_list
+    
+print(list_total(list1))
+print(list_total(list2))
 
 
