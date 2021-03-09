@@ -154,4 +154,75 @@ def list_total(li):
 print(list_total(list1))
 print(list_total(list2))
 
+total=0 # global variable
+def add(a,b=0):
+    """
+    This function takes two arguments whis are interger number and will return sum of them in output
+    """
+    print(a)
+    print(b)
+
+    total=a+b # local variable
+    print("inside",total)
+    return total
+
+print("outside",total)
+print(add(3,5)) #positional arguments 
+print(add(b=3,a=5)) #named arguments
+print(add(3)) #default arguments
+
+# dictionary 
+
+d={"tom": 31234567890, "rob": 39876534321}
+print(d["rob"])
+
+d["sam"]=9284623942
+
+print(d)
+
+del d["sam"]
+
+print(d)
+
+for key in d:
+    print("key:",key,"value:",d[key])
+
+for k,v in d.items():
+    print("key:",k,"value:",v)
+
+print("tom" in d)
+
+d.clear()
+
+print(d)
+
+# tuples [List of values grouped together]
+
+point=(5,9)
+
+print(point[1]) # tuples are immutable you cant change a value in a tuple
+
+
+# modules
+
+import math
+
+print(math.sqrt(16))
+
+print(dir(math)) # to see all function in a module
+
+import calendar
+
+cal = calendar.month(2210,1)
+print(cal)
+
+print(calendar.isleap(1999))
+
+import functions # import custom function
+
+print(functions.add(0,4))
+
+# json [java script object notation]
+
+
 
